@@ -10,7 +10,7 @@ export default function Footer() {
       </a>{" "}
       and is open-sourced on{" "}
       <a
-        href="https://github.com/tetianattl/ttl-weather-app"
+        href="https://github.com/tetianattl/weather-app-react"
         target="_blank"
         rel="noreferrer"
       >
@@ -18,7 +18,7 @@ export default function Footer() {
       </a>{" "}
       and website hosted on{" "}
       <a
-        href="https://ttl-weather-app.netlify.app/"
+        href="https://ttl-weather-app-react.netlify.app/"
         target="_blank"
         rel="noreferrer"
       >
