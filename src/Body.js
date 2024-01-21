@@ -16,7 +16,7 @@ export default function Body() {
     });
   }
 
-  let apiKey = "8ca7dd4e61360b90fb66918853670e48";
+  let apiKey = "t17c0095349275cb66f3b415a17oa3da";
   let units = "metric";
   let url = `https://api.openweathermap.org/data/2.5/weather?q=Kyiv&appid=${apiKey}&units=${units}`;
   axios.get(url).then(showTemperature);
