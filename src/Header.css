@@ -1,0 +1,23 @@
+.Header {
+  border-bottom: 1px solid #f9f7fe;
+  padding: 0 0 15px 0;
+}
+
+.Header .search-form-input {
+  background-color: #f9f7fe;
+  border: none;
+  border-radius: 6px;
+  width: 80%;
+  padding: 14px;
+  font-size: 14px;
+}
+
+.Header .search-form-button {
+  background: #a56e85;
+  margin-left: 10px;
+  padding: 14px 28px;
+  border-radius: 6px;
+  font-size: 14px;
+  border: none;
+  color: white;
+}

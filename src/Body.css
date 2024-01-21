@@ -1,0 +1,126 @@
+body {
+  background-color: #f7e5eb;
+  font-family: "Montserrat", sans-serif;
+  font-family: "REM", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Shantell Sans", cursive;
+}
+
+.Body main {
+  padding: 10px 0;
+}
+
+.Body .weather-app-data {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Body .weather-app-current-region {
+  line-height: 0.8;
+}
+
+.Body .weather-app-city {
+  margin: 0;
+  color: #000000;
+  font-size: 38px;
+  font-weight: 900;
+}
+
+.Body .weather-app-country {
+  margin: 0;
+  color: #000000;
+  font-size: 15px;
+  font-weight: 500;
+  opacity: 0.9;
+}
+
+.Body .weather-app-details {
+  margin: 20px 0;
+  font-size: 16px;
+  color: #887782;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+.Body .weather-app-details strong {
+  color: #e2517d;
+}
+
+.Body .weather-app-details-description {
+  text-transform: capitalize;
+}
+
+.Body .weather-app-temperature-container {
+  display: flex;
+  font-size: 88px;
+  line-height: 88px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.Body .weather-app-icon {
+  width: 88px;
+  height: 88px;
+}
+
+.Body .weather-app-temperature {
+  font-size: 88px;
+  line-height: 88px;
+  font-weight: bold;
+}
+
+.Body .weather-app-unit {
+  margin-top: -20px;
+  font-size: 28px;
+}
+
+.Body .weather-forecast {
+  margin-top: 20px;
+  color: #000000;
+  display: flex;
+  justify-content: space-around;
+}
+
+.Body .weather-forecast-date {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  margin-bottom: 2px;
+  opacity: 0.7;
+}
+
+.Body .weather-forecast-description {
+  text-align: center;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 8px;
+  color: #7d233e;
+  text-transform: capitalize;
+}
+
+.Body .weather-forecast-icon {
+  width: 80px;
+  height: 80px;
+  display: block;
+  margin: 0 auto;
+}
+
+.Body .weather-forecast-temperatures {
+  text-align: center;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.Body .weather-forecast-temperature-maximum {
+  font-size: 14px;
+  opacity: 0.7;
+  padding: 0 10px;
+}
+
+.Body .weather-forecast-temperature {
+  opacity: 0.65;
+  padding: 4px 10px;
+}
